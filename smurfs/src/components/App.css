@@ -1,3 +1,48 @@
 .App {
   text-align: center;
+  background:lightblue;
 }
+
+.display {
+width : 80%;
+height : 200px;
+background-color: orange;
+border:1px solid navy;
+margin:10px auto;
+text-align:center;
+border-radius: 10px;
+}
+
+
+
+
+form {
+   display:flex;
+   flex-direction: column;
+   width :80%;
+   border:1px solid navy;
+   background-color:cyan;
+   margin:1% auto;
+   text-align:center;
+   border-radius:10px;
+ }
+input{
+  width:50%;
+  height:30px;
+  background-color: lightpink;
+  margin:5px auto;
+  padding-left:8px;
+  border-radius:10px;
+}
+
+button {
+  width:150px;
+  height:40px;
+  border-radius:10px;
+  margin: 10px auto;
+}
+
+.update button{
+  margin: 10px;
+}
+
