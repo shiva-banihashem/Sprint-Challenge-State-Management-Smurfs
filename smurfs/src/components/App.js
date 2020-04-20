@@ -51,9 +51,7 @@ function App(props) {
 //   }
 // }
 
-const mapDispatchToProps = {
-  fetchSmurf
-}
+
 
 function mapStateToProps(state) {
   return {
@@ -63,4 +61,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, {fetchSmurf})(App);
